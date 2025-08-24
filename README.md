@@ -2,16 +2,14 @@
 
 Scraper extracting founders LinkedIn from the YC Startup Directory.
 
-## 🚀 How it works
+## 🤔 How it works
 
-- **You provide a YC Startup Directory link**
-- **The script checks all companies pages extracting company name, company website and founders LinkedIn**
-- **Saves all data in CSV file**
-
-## 📋 Prerequisites
-
-- Node.js 18.12+ (recommended: 24.6.0)
-- pnpm (or npm)
+- You provide a YC Startup Directory link
+- The script checks all companies pages extracting:
+  - Company name
+  - Company website
+  - Founders LinkedIn
+- Saves all data in CSV file
 
 ## 🛠️ Installation
 
@@ -42,11 +40,16 @@ Puppeteer requires additional system dependencies to run Chrome/Chromium. Instal
 ## 🎯 Usage
 
 ```bash
+# Use the correct node version
+nvm i && nvm use
+```
+
+```bash
 # Run the scraper with a YC companies URL
 node dist/index.js 'https://www.ycombinator.com/companies?batch=Summer%202025&isHiring=true'
 ```
 
-provide gif here
+Example:
 
 ## 📊 Output
 
