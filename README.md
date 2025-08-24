@@ -1,16 +1,16 @@
 # YC Founder Scraper
 
-Scraper extracting founders LinkedIn from the YC Startup Directory.
+Scraper extracting founders' LinkedIn profiles from the YC Startup Directory.
 ![yc-founder-scraper](https://github.com/user-attachments/assets/7b39690e-d261-4f90-b571-cc81d118ee4f)
 
 ## 🤔 How it works
 
 - You provide a YC Startup Directory link
-- The script checks all companies pages extracting:
+- The script checks all companies' pages and extracts:
   - Company name
   - Company website
-  - Founders LinkedIn
-- Saves all data in CSV file
+  - Founders' LinkedIn
+- Saves all data in a CSV file
 
 ## 🛠️ Installation
 
@@ -61,7 +61,7 @@ The scraper generates a CSV file (`output/yc_founders.csv`) with the following c
 
 - **Company Name**: The name of the YC company
 - **Company Website**: The company's website URL
-- **Founder Profile**: LinkedIn profile URL of the founder
+- **Founders' LinkedIn**: LinkedIn profile URL(s) of the founders
 
 ## 📞 Support
 
