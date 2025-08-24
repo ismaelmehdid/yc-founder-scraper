@@ -1,6 +1,7 @@
 # YC Founder Scraper
 
 Scraper extracting founders LinkedIn from the YC Startup Directory.
+![yc-founder-scraper](https://github.com/user-attachments/assets/7b39690e-d261-4f90-b571-cc81d118ee4f)
 
 ## 🤔 How it works
 
