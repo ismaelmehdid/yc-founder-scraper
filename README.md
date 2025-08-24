@@ -50,8 +50,6 @@ nvm i && nvm use
 node dist/index.js 'https://www.ycombinator.com/companies?batch=Summer%202025&isHiring=true'
 ```
 
-Example:
-
 ## 📊 Output
 
 The scraper generates a CSV file (`output/yc_founders.csv`) with the following columns:
